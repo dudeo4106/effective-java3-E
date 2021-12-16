@@ -38,6 +38,8 @@ public class SpellChecker {
 좋지 않은 이유로는 실전에서는 dictionary를 언어별로 따로 있고 특수 어휘용 dictionary를 별도로 두기도 한다. 심지어 테스트용 dictionary가 필요하다.<br>
 final 한정자를 제거하고 다른 dictionary로 교체하는 메서드를 추가 할 수 있지만 이 방식은 오류를 내기 쉬우며 멀티스레드 환경에서 사용이 불가능 하다.<br>
 
+<br>
+
 ## 적절한 구현 - 의존 객체 주입
 
 ```
